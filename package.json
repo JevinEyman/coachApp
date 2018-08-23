@@ -1,0 +1,22 @@
+{
+  "name": "coachapp",
+  "version": "1.0.0",
+  "description": "Coach app will allow you to interact with and find training plans to meet your needs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JevinEyman/coachApp.git"
+  },
+  "author": "Jevin Eyman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JevinEyman/coachApp/issues"
+  },
+  "homepage": "https://github.com/JevinEyman/coachApp#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
