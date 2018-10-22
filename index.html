@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
   <title>Running with Erica Weitz </title>
 </head>
-<body>
+<body id="home" class="scrollspy">
       <div class="navbar-fixed">
       <!--<div class="container">-->
           <nav class="nav-wrapper blue darken-2">
@@ -21,26 +21,43 @@
               <i class="material-icons">menu</i>
             </a>
             <ul class="right hide-on-med-and-down">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#training">Training</a></li>
+                <li><a class= 'btn orange accent-2 hoverable white-text' href="#home">Home</a></li>
+                <li><a class= 'btn orange accent-2 hoverable'href="#about">About</a></li>
+                <li><a class= 'dropdown-trigger btn orange accent-2 hoverable'href="#contact" data-target='dropdown1'>Connect</a></li>
+                <ul id='dropdown1' class='dropdown-content'>
+                    <li><a href="#follow"><i class="material-icons">email</i>email</a></li>
+                    <li><a href="#follow"><i class="material-icons">phone</i>Phone</a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=5138995" target="_blank"><i class="material-icons">Facebook</i>Facebook</a></li>
+                    <li><a href="https://www.instagram.com/exclusiveerica/" target="_blank"><i class="material-icons">Instagram</i>Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/in/erica-weitz-9a506228/" target="_blank"><i class="material-icons">LinkedIn</i>LinkedIn</a></li>
+                    <li><a href="https://www.strava.com/athletes/14346386?oq=erica" target="_blank"><i class="material-icons">Strava</i>Strava</a></li>
+                  </ul>
+                <li><a class= 'btn orange accent-2 hoverable'href="#training">Training</a></li>
             </ul>
           </nav>
       </div><!--navbar-fixed-->
   
 
       <ul class="sidenav" id="mobile-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#training">Training</a></li>
+        <li><a class= 'dropdown-trigger btn blue darken-2' href="#home">Home</a></li>
+        <li><a class= 'dropdown-trigger btn blue darken-2' href="#about">About</a></li>
+        <li><a class= 'dropdown-trigger btn blue darken-2' href="#follow" data-target='dropdown1'>Connect</a></li>
+          <ul id='dropdown1' class='dropdown-content'>
+            <li><a href="#!"><i class="material-icons">email</i>ericamweitz@gmail.com</a></li>
+            <li><a href="#!"><i class="material-icons">phone</i>Phone</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=5138995" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/exclusiveerica/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/erica-weitz-9a506228/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://www.strava.com/athletes/14346386?oq=erica" target="_blank"><i class="fab fa-strava"></i></a></li>
+          </ul>
+        <li><a class= 'dropdown-trigger btn blue darken-2' href="#training">Training</a></li>
+        
       </ul>
 
   <div id="home">
       
       <div class="slider">
-        <ul class="slides">
+        <!--<ul class="slides">-->
           <li>
             <img src="images/image1.jpg"> 
             <div class="caption left-align">
@@ -49,66 +66,66 @@
             </div>
           </li>
           <li>
-            <img src="images/image8.jpg"> 
+            <img src="images/image8b.jpg"> 
             <div class="caption right-align">
               <h3>Running with Encouragement!</h3>
               <h5 class="light grey-text text-lighten-3 hide-on-small-only">Friends can help motivate you.</h5>
             </div>
           </li>
           <li>
-            <img src="images/image6.jpg"> 
+            <img src="images/image6a.jpg"> 
             <div class="caption right-align">
               <h3>Running can take you anywhere!</h3>
               <h5 class="light grey-text text-lighten-3 hide-on-small-only">Pack your bag and off we go.</h5>
             </div>
           </li>
-        </ul>
+        <!--</ul>-->
       </div><!--slider-->
 </div><!--home-->
 
-  <section class="section section-follow blue darken-2"></section>
-  <section class="section section-follow blue darken-2"></section>
+  <section class="section blue darken-2"></section>
+  <section class="section blue darken-2"></section>
 
-    <section id="training" class="section section-popular scrollspy grey lighten-2">
+    <section id="training" class="section section-popular scrollspy  deep-orange lighten-2">
       <div class="container">
         <div class="row">
           <h3 class="center section-header">Training Programs Offered</h3>
-          <div class="col s12 m4">
+          <div class="col s12 m4 l4">
             <div class="card-panel">
               <div class="card-header center-align blue darken-2 white-text">
                   <h4>Running</h4>
               </div><!--card-header-->
               <div class="card-image">
-                <img src="images/image4.jpg" alt="" class="materialboxed responsive-img" width="650">
+                <img src="images/image4b.jpg" alt="" class="materialboxed responsive-img" width="650">
               </div><!--card-image-->
               <div class="card-content">
-                <p>Training programs for any distance and for any level.  Workouts can include interval training, tempo runs and long runs.  Individualized workouts based on runners goals.</p>
+                <p class="flow-text">Training programs for any distance and for any level.  Workouts can include interval training, tempo runs and long runs.  Individualized workouts based on runners goals.</p>
               </div><!--card-content-->
             </div><!--card-panel-->
           </div><!--col-->
-          <div class="col s12 m4">
+          <div class="col s12 m4 l4">
               <div class="card-panel">
                 <div class="card-header center-align blue darken-2 white-text">
                     <h4>Strength</h4>
                 </div>
                 <div class="card-image">
-                  <img src="images/image12.jpg" alt="" class="materialboxed responsive-img" width="650">
+                  <img src="images/image12a.jpg" alt="" class="materialboxed responsive-img" width="650">
                 </div>
                 <div class="card-content">
-                  <p>Strength training programs for any level.  If you are looking to get faster, stronger or just get started.  We have programs to help you reach your goals.</p>
+                  <p class="flow-text">Strength training programs for any level.  If you are looking to get faster, stronger or just get started.  We have programs to help you reach your goals.</p>
                 </div>
               </div>
             </div>
-            <div class="col s12 m4">
+            <div class="col s12 m4 l4">
                 <div class="card-panel">
                   <div class="card-header center-align blue darken-2 white-text">
                       <h4>Nutrition</h4>
                   </div>
                   <div class="card-image">
-                    <img src="images/image15.jpg" alt="" class="materialboxed responsive-img" width="650">
+                    <img src="images/image15d.jpg" alt="" class="materialboxed responsive-img" width="650">
                   </div>
                   <div class="card-content">
-                    <p>Customized meal plans and nutritional help for any level of athlete.  The right nutrition plan designed for you. Let me help you be the best you can be.</p>
+                    <p class="flow-text">Customized meal plans and nutritional help for any level of athlete.  The right nutrition plan designed for you. Let me help you be the best you can be.</p>
                   </div><!--card-content-->
                 </div><!--card-panel-->
               </div><!--col-->
@@ -116,36 +133,93 @@
       </div><!--container-->
     </section>
     
-    <section class="section section-follow blue darken-2"></section>
-    <section class="section section-follow blue darken-2"></section>
+    <section class="section blue darken-2"></section>
+    <section class="section blue darken-2"></section>
 
-      <section id="about" class="section section-popular grey lighten-2 scrollspy">
+    <section id="about" class="section section-popular grey lighten-2 scrollspy">
         <div class="container">
-          <h3 class="section-header center">Erica's Journey</h3>
-          <div class="row">
-            <div class="col s12 m7">
-
-              <div class="card-panel">
+              <div class="row">
+                <div class="col s12 m12">
+                    <h3 class="section-header center">Erica's Journey</h3>
+                  <ul class="tabs tabs-fixed-width tab-demo z-depth-1">
+                    <li class="tab col s6 blue darken-2"><a href="#running" class="white-text active">Running Path</a></li>
+                    <li class="tab col s6 blue darken-2"><a href="#coaching" class="white-text">Coaching Path</a></li>
+                  </ul>
+                </div>
+                <div id="running" class="col s12 m12 l12">
+                
                     <p class="flow-text">Distance running is in Erica’s blood.  Her dad was a successful marathoner, winning the Smoky Mountain Marathon in 1982.  Erica followed her passion and began running in high school and then was able to continue collegiately at the University of Central Florida, where she was part of the Conference USA Championship winning team for the first time in school history.  Erica continued to run after college, shifting from the 5000m to longer distance events. In time, Erica established herself as one of the top female runners in the state of Florida.</p>
 
-                    <button id="read_more" class=" btn blue darken-2 white text">Read More</button>
                     
-                    <div id="more-text" style="height: 0; overflow: hidden;">
-                    <p class="flow-text">Erica ran her first marathon one year after college and ended up with a second place finish and respectable time of 3:05. She has competed in 3 Boston Marathons (2012-2014) with a PR of 2:56. Erica realized at the end of 2014 that she wanted to be more competitive and began training for the marathon with consistent training and coaching.  Erica smashed her PR by almost 9 minutes with a 2:47 at the Grandma's Marathon in June 2015. She then went on to become the 2017 Napa Valley Marathon champion, running 2:48:48 on a cold and blustery day.</p>
-                    
+                    <p class="flow-text">Erica ran her first marathon one year after college and ended up with a second place finish and respectable time of 3:05. Erica competed in the Boston Marathon from (2012-2014) with a PR of 2:56. Erica realized at the end of 2014 that she wanted to be more competitive and began training for the marathon with consistent training and coaching.  Erica smashed her PR by almost 9 minutes with a 2:47 at the Grandma's Marathon in June 2015. She then went on to become the 2017 Napa Valley Marathon champion, running 2:48:48 on a cold and blustery day.</p>
+                    <div class="hide-on-med-and-down">
+                    <!--<div id="more-text" style="height: 0; overflow: hidden;">-->
                     <p class="flow-text">Erica competed in the elite field of the Peachtree 10k in Atlanta and ran her fastest time ever at the event despite training through that race while focusing on the 2017 Chicago Marathon. At the 2017 Chicago Marathon, she ran a 2:45:24 which was 2 minutes and 34 seconds faster than her previous personal record.  Erica’s ultimate goal is to qualify for the 2020 US Olympic Trials in the marathon.</p>
                     </div>
-              </div>
-          
-          
-            </div>
-          
-            <div class="col s12 m5">
-                <div class="card-panel">
-                    <img src="images/image3.jpg" alt="" class="materialboxed responsive-img" width="650">
+                    <!--<button id="read_more" class=" btn blue darken-2 white text">Read More</button>-->
+                
                 </div>
+
+            
+                <div id="coaching" class="col s12 m12 l12">
+                
+                  <p class="flow-text">Erica worked in the corporate world for 3 years in Retail Management and Recruiting until she realized something was missing. She decided to follow her true passion for the sport of running and become a coach.</p>
+                  <p class="flow-text">Erica began as an Assistant Coach for the Winter Park Wildcats, where she motivated and trained with the athletes who went on to become some of the top contenders for the state of Florida. Erica brought that experience to her first Head Coach position at Lake Howell High School, located in Winter Park, Florida, where she was in charge of the Boys and Girls Cross Country and Track and Field teams. She brought several athletes to the State Championships in Cross Country, some of whom went on to compete in college at the NCAA Division I and II levels.</p> 
+                  
+                  <div class="hide-on-med-and-down">
+                  <p class="flow-text">After almost 2 years at Lake Howell, Erica took on a new role as a Teacher and Coach. Still leading the Boys and Girls Cross Country teams and the Distance squad for Track. Erica has been instrumental in growth of the program and has developed athletes from beginners to State-caliber athletes.</p> 
+                  
+                  <!--<div id="more" style="height: 0; overflow: hidden;"> -->
+                  <p class="flow-text">As a Certified Personal Trainer through the International Sports Sciences Association (ISSA), Erica also trains and teaches group bootcamp classes at Orlando Fitbody Bootcamp, where she has been teaching for the past 5 years. The classes are 30-minute High Intensity Interval Training (HIIT), which improves athletic capacity and condition as well as improves glucose metabolism, essentially burning the most fat in a short amount of time. Erica loves the sport almost as much as she loves helping others get to the next level and achieve their goals.</p>
+                  </div>
+                  
+                  <!--<button id="read" class=" btn blue darken-2 white text">Read More</button>-->
+                
+                
+                </div><!--col-->
+
+                <div class="col s12 m6 l5">
+                  <div class="card-panel">
+                    <img src="images/image3.jpg" alt="" class="materialboxed responsive-img" width="650">
+                  </div>
+                </div>
+
+                <div id="records" class="col s12 m6 l7push right">
+                    <div class="card-panel">
+                        <div class="card-header center-align blue darken-2 white-text"><h4>Personal Records</h4></div>
+                        <ul class="collapsible popout">
+                            <li>
+                              <div class="collapsible-header"><h6>Marathon: 26.2 miles / 42 km</h6></div>
+                              <div class="collapsible-body"><span>
+                                <a href="#">2017 Chicago Marathon 2:45:24</a>
+                              </span></div>
+                            </li>
+                            <li>
+                              <div class="collapsible-header"><h6>Half-Marathon: 13.1 miles / 21 km</h6></div>
+                              <div class="collapsible-body"><span>
+                                <a href="#">1:20:41</a>
+                              </span></div>
+                            </li>
+                            <li>
+                              <div class="collapsible-header"><h6>10k: 6.2 miles</h6></div>
+                              <div class="collapsible-body"><span>
+                                <a href="#">36:57</a>
+                              </span></div>
+                            </li>
+                            <li>
+                                <div class="collapsible-header"><h6>5k: 3.1 miles</h6></div>
+                                <div class="collapsible-body"><span>
+                                  <a href="#">17:20</a>
+                                </span></div>
+                              </li>
+                          </ul>
+
+
+
             </div>
-            <div id="records" class="col s12 m5">
+        </div>
+    </section>
+            <!--<div id="records" class="col s12 m5">
                 <div class="card-panel">
                     <div class="card-header center-align blue darken-2 white-text"><h4>Personal Records</h4></div>
                     <ul class="collapsible popout">
@@ -195,64 +269,58 @@
             </div>
           </div><!--ROW-->
         </div><!--container-->
-      </section>
+      
 
-      <section class="section section-follow blue darken-2"></section>
-      <section class="section section-follow blue darken-2"></section>
+      <section class="section blue darken-2"></section>
+      <section class="section blue darken-2"></section>
 
 
-      <section id="contact" class="section section-popular grey lighten-2 scrollspy">
+      <section id="follow" class="section section-follow orange accent-2 scrollspy">
         <div class="container">
         <div class="row">
-          <h3 class="section-header center">Erica's Path to Coaching</h3>
-          <div class="col s12 m7">
-            <div class="card-panel">
-              <p class="flow-text">Erica worked in the corporate world for 3 years in Retail Management and Recruiting until she realized something was missing. She decided to follow her true passion for the sport of running and become a coach as well as an athletes.
-              <p class="flow-text">Erica began as an Assistant Coach for the Winter Park Wildcats, where she motivated and trained with the athletes who went on to become some of the top contenders for the state of Florida. Erica brought that experience to her first Head Coach position at Lake Howell High School, also located in Winter Park, Florida, where she was in charge of the Boys and Girls Cross Country and Track and Field teams. She brought several athletes to the State Championships in Cross Country, some of whom went on to compete in college at the NCAA Division I and II levels.</p> 
-              
-              <button id="read" class=" btn blue darken-2 white text">Read More</button>
-              <div id="more" style="height: 0; overflow: hidden;"> 
-              <p class="flow-text">After about 2 years at Lake Howell, Erica took on a new role as a Teacher and Coach. Still leading the Boys and Girls Cross Country teams and the Distance squad for Track, Erica has grown the program from 5 to 15+ on the distance team and has developed athletes from non-runners to State-caliber athletes.</p> 
-              <p class="flow-text">Aside from school coaching, Erica coaches individual athletes one-on-one, developing customized training plans to meet her clients' needs. She coaches anyone - from those who want to lose weight to those who want to qualify for the Boston Marathon or run a personal record. Her training plans range from simply running to running, strength and nutrition.</p> 
-              <p class="flow-text">As a Certified Personal Trainer through the International Sports Sciences Association (ISSA), Erica also trains and teaches group bootcamp classes at Orlando Fitbody Bootcamp, where she has been teaching for the past 5 years. The classes are 30-minute High Intensity Interval Training (HIIT), which improves athletic capacity and condition as well as improves glucose metabolism, essentially burning the most fat in a short amount of time. Erica loves the sport almost as much as she loves helping others get to the next level and achieve their goals.
+          <!--<div class="col s12 m9 l11">
+              <h3 class="section-header">Connect with, Follow, and Run with Erica</h3>
+              <p class="flow-text">
+                Follow Erica on social media for running tips and to stay inspired.
               </p>
-            </div>
-            </div><!--card-panel-->
-          </div><!--col-->
-          <div class="col s12 m5">
-            <div id="#contact" class="card-panel scrollspy blue darken-2 white-text">
-                <div class="card-panel-header center">
-                  <h3>Let's Get Started on Your Journey!</h3>
-                </div>
-                <form action="">
-                    <div class="input-field">
-                      <input type="text" id="Firstname">
-                      <label for="Firstname">First Name</label>
-                    </div>
-                    <div class="input-field">
-                        <input type="text" id="Lastname">
-                        <label for="Lastname">Last Name</label>
+              <p class="flow-text">
+                Contact through email and let her help you start your journey to reach your goals.
+              </p>
+              <p class="flow-text">
+                You are not alone.  Join us and lets run!
+              </p>-->
+              <div class="col s12 m12 l12">
+                  <h2 class="header center-align">Connect with and Follow Erica</h2>
+                  <div class="card horizontal">
+                    <div class="card-stacked">
+                      <div class="card-content">
+                        <p class="flow-text">Follow Erica on social media for running tips and to stay inspired. Contact through email and let her help you start your journey to reach your goals. You are not alone.  Join us and lets run!</p>
                       </div>
-                    <div class="input-field">
-                      <input type="email" id="email">
-                      <label for="email">Email</label>
+                      <div class="card-action center-align blue darken-2">
+                          <a href="https://www.facebook.com/profile.php?id=5138995" target="_blank"><i class="fab fa-facebook fa-4x"></i></a>
+                          <a href="https://www.instagram.com/exclusiveerica/" target="_blank"><i class="fab fa-instagram fa-4x"></i></a>
+                          <a href="https://www.linkedin.com/in/erica-weitz-9a506228/" target="_blank"><i class="fab fa-linkedin fa-4x"></i></a>
+                          <a href="https://www.strava.com/athletes/14346386?oq=erica" target="_blank"><i class="fab fa-strava fa-4x"></i></a><br>
+                          <a href="#" target="_blank"><h5>ericamweitz@gmail.com</h5></a>
+                          <a href="#" target="_blank"><h5>999.999.9999</h5></a>
+                      </div>
                     </div>
-                    <div class="input-field">
-                      <textarea id="message" cols="30" rows="10" class="materialize-textarea"></textarea>
-                      <label for="message">Message</label>
-                    </div>
-                    <button class="btn large" type="submit" name="action">Submit</button>
-                </form>
-            </div><!--#contact-->
-            
+                  </div>
+                </div>
+              </div>
+            </div><!--col-->
+          
           </div><!--Row-->
-          </div>
-        
-
+        </div>
       </section>
+      <section class="section blue darken-2"></section>
+          <div class="footer-copyright blue darken-2">
+            <div class="container center-align">&copy; 2018 Jevin.Eyman</div>
+          </div>
+      <section class="section blue darken-2"></section>
+      
 
-      <section class="section section-follow blue darken-2"></section>
-      <section class="section section-follow blue darken-2"></section>
+      
 
     
   </div>
@@ -263,31 +331,52 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
   <script>
     $(document).ready(function(){
-      $('.sidenav').sidenav();
+      //$('.sidenav').sidenav();//
       $('.materialboxed').materialbox();
-      $('tabs').tabs();
       $('.collapsible').collapsible();
 
-      $('#read_more').on("click", function(){
+      var readMore = $('#read_more');
+      var read = $('#read');
+      var more = $('#more');
+      var moretext = $('more-text');
+      var open = true;
+
+      
+      
+        $('#read_more').on("click", function(){ 
         $('#more-text').toggleClass("open");
+      
+        return false;
+        })
+
+
+        $('#read').on("click", function(){
+        $('#more').toggleClass("open");
+        
         return false;
         })
       
 
-      $('#read').on("click", function(){
-        $('#more').toggleClass("open");
-        return false;
-        })
+      
 
-   });
+      
+      $('.tabs').tabs();
+      $('.sidenav').sidenav();  
+      $('.dropdown-trigger').dropdown();
+      
+  });
 
-  const slider= document.querySelector('.slider');
+ 
+
+  const slider = document.querySelector('.slider');
     M.Slider.init(slider, {
       indicators: false,
       height: 500,
       transition: 500,
       interval: 6000
     });
+
+    
   </script>
 </body>
 </html>
